@@ -1,4 +1,4 @@
-package com.mycompany.springhelloworld.controller.utils;
+package com.mycompany.springhelloworld.utils;
 
 /**
  *

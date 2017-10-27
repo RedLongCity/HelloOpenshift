@@ -1,4 +1,4 @@
-package com.mycompany.springhelloworld.controller.utils;
+package com.mycompany.springhelloworld.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

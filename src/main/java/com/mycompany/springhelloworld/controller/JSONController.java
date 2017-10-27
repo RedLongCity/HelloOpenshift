@@ -1,7 +1,6 @@
 package com.mycompany.springhelloworld.controller;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.mycompany.springhelloworld.controller.utils.SimpleRequest;
+import com.mycompany.springhelloworld.utils.SimpleRequest;
 import java.net.MalformedURLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
