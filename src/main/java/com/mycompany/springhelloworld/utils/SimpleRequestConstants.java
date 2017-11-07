@@ -16,7 +16,7 @@ public interface SimpleRequestConstants {
     String api_tour_flights_urs = "tour/flights/";
     
     String authorization = "Authorization";
-    String authorization_token = "3465a00497bba1d9fea70d23c0c6a563";
+    String authorization_token = "4a24d8ad6425bdc3c7fcfe1f1d9f63b9";
     String acceptLanguage = "Accept-Language";
     String response_language   = "ru";
 }

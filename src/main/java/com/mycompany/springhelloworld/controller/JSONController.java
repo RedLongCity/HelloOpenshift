@@ -29,7 +29,17 @@ public class JSONController {
         String example=null;
         try {
             SimpleRequest request = new SimpleRequest();
-            example = request.getRequest("https://api.ittour.com.ua/showcase/hot-offers/search?hotel_rating=3:78&night_from=3&night_till=5&items_per_page=100&hotel_image=1");
+            example = request.getRequest("https://api.ittour.com.ua/module/search-list?"
+                    + "country=420&"
+                    + "from_city=1212&"
+                    + "hotel_rating=3:78&"
+                    + "adult_amount=2&"
+                    + "night_from=6&"
+                    + "night_till=8&"
+                    + "date_from=20.11.17&"
+                    + "date_till=21.11.17&"
+                    + "page=1&"
+                    + "items_per_page=1000");
         } catch (MalformedURLException ex) {
             Logger.getLogger(JSONController.class.getName()).log(Level.SEVERE, null, ex);
         }
